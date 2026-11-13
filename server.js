@@ -9,6 +9,7 @@ await preview({
   preview: {
     host: "0.0.0.0",
     port,
-    strictPort: true
+    strictPort: true,
+    allowedHosts: ["habinyero.onrender.com"]
   }
 });
